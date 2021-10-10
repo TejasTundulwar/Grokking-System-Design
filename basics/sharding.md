@@ -16,6 +16,7 @@ Sharding / Data Partitioning
     - To support growth of the application, a database may need further partitioning.
 - Directory-based partitioning
   - A lookup service that knows the partitioning scheme and abstracts it away from the database access code.
+  - To find out where a particular data entity resides, we query the directory server that holds the mapping between each tuple key to its DB server.
   - Allow addition of db servers or change of partitioning schema without impacting application.
   - Con
     - Can be a single point of failure.

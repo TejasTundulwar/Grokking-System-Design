@@ -79,3 +79,6 @@ SQL vs. NoSQL
   - Cloud-based storage requires data to be easily spread across multiple servers to scale up.
 - Rapid development.
   - Frequent updates to the data structure.
+
+
+For more info on SQL vs NOSQL [here](sqlVNosql_extra.md)

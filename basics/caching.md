@@ -52,6 +52,7 @@ Caching
     - Higher latency for write operations.
 - Write-around cache
   - Data is written to permanent storage, not cache.
+  - Corresponsing entry deleted from cache , which results in cache miss the next time and then we update the cache by reading data from database
   - Pro
     - Reduce the cache that is no used.
   - Con

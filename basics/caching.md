@@ -58,7 +58,7 @@ Caching
     - Reduce the cache that is no used.
   - Con
     - Query for recently written data creates a cache miss and higher latency.
-- Write-back cache
+- Write-back cache [best of both the worlds]
   - Data is only written to cache.
   - Write to the permanent storage is done later on.
   - Pro

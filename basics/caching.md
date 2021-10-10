@@ -50,6 +50,7 @@ Caching
     - Fast retrieval, complete data consistency, robust to system disruptions.
   - Con
     - Higher latency for write operations.
+    - In cases where data is stored in caches of multiple nodes/servers, updating just once cache will introduce inconsistency.
 - Write-around cache
   - Data is written to permanent storage, not cache.
   - Corresponsing entry deleted from cache , which results in cache miss the next time and then we update the cache by reading data from database

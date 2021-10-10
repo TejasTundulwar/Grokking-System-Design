@@ -1,6 +1,10 @@
 SQL vs. NoSQL
 ====
 
+### Relational vs Non-relational databases
+- **Relational databases** are structured and have **predefined schemas** like phone books that store phone numbers and addresses. 
+- **Non-relational databases** are unstructured, distributed, and have a **dynamic schema** like file folders that hold everything from a person’s address and phone number to their Facebook ‘likes’ and online shopping preferences.
+
 ## Common types of NoSQL
 ### Key-value stores
 - Array of key-value pairs. The "key" is an attribute name.
@@ -16,6 +20,7 @@ SQL vs. NoSQL
 - Column families - containers for rows.
 - No need to know all the columns up front.
 - Each row can have different number of columns.
+- **Best suited for analyzing large datasets.**
 - Cassandra, HBase.
 
 ### Graph database

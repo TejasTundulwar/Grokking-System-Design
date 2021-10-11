@@ -28,3 +28,4 @@ Problems of simple hashing function `key % n` (`n` is the number of servers):
 <img width="663" alt="image" src="https://user-images.githubusercontent.com/5825394/136717574-664562df-4689-4a4c-a177-08bfd329c9b2.png">
 <img width="696" alt="image" src="https://user-images.githubusercontent.com/5825394/136717584-1fd248be-6d2d-4756-8834-4acc8346793c.png">
 
+For detailed info go [here](consistent_hashing_complete.md)
